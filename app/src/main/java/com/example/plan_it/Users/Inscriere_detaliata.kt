@@ -231,6 +231,7 @@ class Inscriere_detaliata : AppCompatActivity(), DatePickerDialog.OnDateSetListe
                         }
                     }
 
+                    //hi there this is a comment for github
 
                     var programAdapter =
                         ProgramAdapter(
