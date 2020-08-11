@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Plan-IT</string>
+
+    <string-array name="Localitati">
+        <item>Alba Iulia</item>
+        <item>Baia Mare</item>
+        <item>București</item>
+        <item>Cluj-Napoca</item>
+        <item>Iași</item>
+        <item>Oradea</item>
+        <item>Ploiești</item>
+        <item>Rîșnov</item>
+        <item>Timișoara</item>
+    </string-array>
+
+    <string-array name="Categorii_servicii">
+        <item>Toate categoriile</item>
+        <item>Alt domeniu</item>
+        <item>Auto</item>
+        <item>Înfrumusețare</item>
+        <item>Medicină</item>
+        <item>Organizare evenimente</item>
+        <item>Sport și agrement</item>
+        <item>Stomatologie</item>
+        <item>Terapii complementare</item>
+        <item>Veterinar și toaletaj</item>
+    </string-array>
+
+    <string-array name="Week_days">
+        <item>Luni</item>
+        <item>Marti</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sambata</item>
+        <item>Duminica</item>
+    </string-array>
+
+    <string name="change_name_activity_administrate_company">Schimba Numele Companiei</string>
+    <string name="change_adress_activity_administrate_company">Schimba Adresa Companiei</string>
+    <string name="Servicies_activity_administrate_company">Servicii</string>
+    <string name="Specialists_activity_administrate_company">Specialisti</string>
+
+    <string name="Change_service_item_admin">Schimba</string>
+    <string name="Remove_service_item_admin">X</string>
+
+    <string name="Remove_specialist_item_admin">X</string>
+    <string name="ChangeProgram_specialist_item_admin">Schimba Program</string>
+
+
+</resources>

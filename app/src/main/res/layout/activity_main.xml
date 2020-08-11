@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2ab2d1">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:width="270sp"
+            android:fontFamily="@font/montserrat_bolditalic"
+            android:gravity="center_horizontal"
+            android:text="Planifică-ți activitațile"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:width="280sp"
+            android:fontFamily="@font/montserrat_italic"
+            android:gravity="center_horizontal"
+            android:text="PLANIFICĂ ⬤ GESTIONEAZĂ ⬤ TRĂIEȘTE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <com.sdsmdg.harjot.longshadows.LongShadowsWrapper
+            android:id="@+id/textView21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginLeft="94dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonSignIn"
+            app:layout_constraintEnd_toStartOf="@+id/textView22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+            <com.sdsmdg.harjot.longshadows.LongShadowsTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/montserrat_black"
+                android:gravity="center_vertical"
+                android:text="Plan"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                app:shadow_endColor="#00000000"
+                app:shadow_length="100"
+                app:shadow_startColor="#FFFFFF" />
+        </com.sdsmdg.harjot.longshadows.LongShadowsWrapper>
+
+        <com.sdsmdg.harjot.longshadows.LongShadowsWrapper
+            android:id="@+id/textView22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginBottom="10dp"
+            android:translationX="-10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonSignIn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+            <com.sdsmdg.harjot.longshadows.LongShadowsTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/montserrat_black"
+                android:gravity="center_vertical"
+                android:text="IT"
+                android:textColor="#cdd61c"
+                android:textSize="40sp"
+                app:shadow_endColor="#00000000"
+                app:shadow_length="100"
+                app:shadow_startColor="#FFFFFF" />
+        </com.sdsmdg.harjot.longshadows.LongShadowsWrapper>
+
+
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            android:layout_marginBottom="5dp"
+            android:width="300sp"
+            android:background="@drawable/roundedcorners"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="CONECTARE"
+            android:textColor="#D32C48"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonRegister"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp"
+            android:width="300sp"
+            android:background="@drawable/roundedcorners"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="ÎNREGISTRARE"
+            android:textColor="#D32C48"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSignIn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
